@@ -62,7 +62,7 @@ window.addEventListener('load', () => {
 
     const bgm = document.getElementById('bgm');
     const toggle = document.getElementById('soundToggle');
-    let playing = false;
+    let playing = true;
 
     toggle.addEventListener('click', async () => {
         try {
